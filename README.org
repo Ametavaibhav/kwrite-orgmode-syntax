@@ -4,20 +4,21 @@
 #+MODIFIED: Aug 28, 2024
 
 
-** Customized XML File
+*** Customized XML File
 This repository contains a modified XML file for KatePart Syntax Highlighting System, to improve the syntax highlighting for Org-mode.
 
 
-** Changes
+*** Changes
 Added the rules to handle bold, italics, underline, strikethrough, inline code, and link highlighting in lists, and numbered lists.
-![[./img/before.png][Before]] | ![[./img/after.png][After]]
+![[./img/before.png][Before]]
+![[./img/after.png][After]]
 
 
-** Original Source
+*** Original Source
 The XML file was taken from [[https://invent.kde.org/frameworks/syntax-highlighting/-/blob/master/data/syntax/orgmode.xml#L55][Syntax Highlighting Repository]].
 
 
-** How to use it
+*** How to use it
 /tested on KWrite and Kate/
 1. download the XML file, and place in in ~org.kde.syntax-highlighting/syntax/~ folder. for most configurations the directory of custom XML files is as follows [[https://docs.kde.org/stable5/en/kate/katepart/highlight.html#The%20Highlight%20Definition%20XML%20Format][(ref)]]:
     | For local user | $HOME/.local/share/org.kde.syntax-highlighting/syntax/ |
@@ -28,4 +29,4 @@ The XML file was taken from [[https://invent.kde.org/frameworks/syntax-highlight
 
 2. Go to ~Tools -> Highlighting -> Markup~ and select ~Org Mode 2~. Restart the applicaion.
 
----
+
