@@ -10,8 +10,12 @@ This repository contains a modified XML file for KatePart Syntax Highlighting Sy
 
 *** Changes
 Added the rules to handle bold, italics, underline, strikethrough, inline code, and link highlighting in lists, and numbered lists.
-![[./img/before.png][Before]]
-![[./img/after.png][After]]
+
+~Before~
+[[./img/before.png]]
+
+~After~
+[[./img/after.png]]
 
 
 *** Original Source
